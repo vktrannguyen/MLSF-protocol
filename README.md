@@ -1,5 +1,7 @@
 # MLSF-protocol
 
+![Protocol-Workflow](https://github.com/vktrannguyen/MLSF-protocol/blob/main/Figure1-protoc.png)
+
 You will find herein the code (Python scripts, Jupyter notebooks), the input and output files related to our Nature Protocols paper:
 
 Tran-Nguyen, V. K. & Ballester, P. J. A practical guide to machine-learning scoring for structure-based virtual screening. Nat. Protoc. (2022)
