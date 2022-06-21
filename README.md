@@ -10,4 +10,4 @@ The Python scripts and Jupyter notebooks are found in the Protocol_Code folder.
 
 The input and output files for a target (ACHE, HMGR, PPARA) are found in the corresponding folder.
 
-All necessary information is included in our protocol. For further queries, please contact me (khoatnv1993@gmail.com) or Dr. Pedro J. Ballester (pedro.ballester@inserm.fr).
+All necessary information is included in our protocol. For further queries, please contact Dr. Viet-Khoa Tran-Nguyen (khoatnv1993@gmail.com) or Dr. Pedro J. Ballester (pedro.ballester@inserm.fr).
