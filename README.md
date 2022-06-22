@@ -4,9 +4,9 @@
 
 You will find herein the code (Python scripts, Jupyter notebooks), the input and output files related to our Nature Protocols paper:
 
-Tran-Nguyen, V. K. & Ballester, P. J. A practical guide to machine-learning scoring for structure-based virtual screening. Nat. Protoc. (2022)
+Tran-Nguyen, V. K. & Ballester, P. J. A practical guide to machine-learning scoring for structure-based virtual screening. *Nat. Protoc.* (2022)
 
-The Python scripts and Jupyter notebooks are found in the Protocol_Code folder.
+The code is found in the *Protocol_Code* folder.
 
 The input and output files for a target (ACHE, HMGR, PPARA) are found in the corresponding folder.
 
