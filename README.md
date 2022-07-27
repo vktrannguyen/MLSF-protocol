@@ -6,14 +6,14 @@ You will find herein the code (Python scripts, Jupyter notebooks), the input and
 
 **Tran-Nguyen, V. K., Junaid, M., Simeon, S. & Ballester, P. J. A practical guide to machine-learning scoring for structure-based virtual screening. *Nat. Protoc.* (2022)**
 
+Here we provide examples for three targets: **ACHE** (acetylcholinesterase), **HMGR** (HMG-CoA reductase), and **PPARA** (peroxisome proliferator-activated receptor alpha). The input and output files for a target are found in the corresponding folder.
+
 The code is found in the **Protocol_Code** folder:
 
 - **Morgan-fp-simil.ipynb**: for computing the similarity of Morgan fingerprints.
 - **Compound-clustering_Morgan-fp.ipynb**: for clustering molecules based on their Morgan fingerprint similarity.
 - **Remove_AVE_Python3.py**: for splitting a data set into four subsets (training actives, training inactives, test actives, and test inactives) in an unbiased manner.
 - **MLSFs.ipynb**: for training and evaluating target-specific SFs.
-
-Here we provide examples for three targets: **ACHE** (acetylcholinesterase), **HMGR** (HMG-CoA reductase), and **PPARA** (peroxisome proliferator-activated receptor alpha). The input and output files for a target are found in the corresponding folder.
 
 All Supporting Information files are found in the **Supporting_Information** folder:
 
