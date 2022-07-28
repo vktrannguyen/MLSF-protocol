@@ -8,6 +8,16 @@ You will find herein the code (Python scripts, Jupyter notebooks), the input and
 
 Here we provide examples for three targets: **ACHE** (acetylcholinesterase), **HMGR** (HMG-CoA reductase), and **PPARA** (peroxisome proliferator-activated receptor alpha). The input and output files for a target are found in the corresponding folder.
 
+Inside each of the three folders **ACHE**, **HMGR**, **PPARA**, you will find the following sub-folders:
+
+- **DEKOIS2.0** sub-folder: all input and output files for Section A of this protocol.
+- **Own_data** sub-folder: all input and output files for Sections B, C, D of this protocol. There are smaller sub-folders as follows:
+  - **SMILES** sub-folder: all SMILES strings of the users' own true actives, true inactives and decoys.
+  - **ChemAxon** sub-folder: raw data for Fig. 4 in the manuscript and Figures S1-S2 in Supporting Information.
+  - **MLSF_PETS** sub-folder: all input and output files related to training-test partitions obtained from the "Pre-Existing Test Set" (PETS) option.
+  - **MLSF_OTS** sub-folder: all input and output files related to training-test partitions obtained from the "Own Test Set" (OTS) option.
+  - *data.xlsx*: the master Excel file where all necessary information on the users' own true actives and true inactives is stored.
+
 The code is found in the **Protocol_Code** folder:
 
 - *Morgan-fp-simil.ipynb*: for computing the similarity of Morgan fingerprints.
@@ -24,9 +34,10 @@ All Supporting Information files are found in the **Supporting_Information** fol
 
 Two environments have to be set up in order to run the code of this protocol: **DeepCoy-env** and **protocol-env**. The **DeepCoy-env** environment can be installed according to DeepCoy authors (https://github.com/fimrie/DeepCoy). The **protocol-env** environment can be set up by using the *protocol-env.yml* file provided here as follows:
 
-*conda env create -f protocol-env.yml*
-
-*conda activate protocol-env*
+```
+conda env create -f protocol-env.yml
+conda activate protocol-env
+```
 
 The Anaconda installer v4.13.0 is needed to set up these environments. Installation instructions for Anaconda can be found at https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html.
 
