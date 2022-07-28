@@ -24,13 +24,19 @@ All Supporting Information files are found in the **Supporting_Information** fol
 
 Two environments have to be set up in order to run the code of this protocol: **DeepCoy-env** and **protocol-env**. The **DeepCoy-env** environment can be installed according to DeepCoy authors (https://github.com/fimrie/DeepCoy). The **protocol-env** environment can be set up by using the *protocol-env.yml* file provided here as follows:
 
-*conda env create -f protocol-env.yml;*
+*conda env create -f protocol-env.yml*
 
 *conda activate protocol-env*
 
 The Anaconda installer v4.13.0 is needed to set up these environments. Installation instructions for Anaconda can be found at https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html.
 
-Languages: Python v3.7, Jupyter notebook, Bash.
+Several parts of the code/scripts/Jupyter notebooks used in this protocol were developed from the original code accessible in the following github repositories:
+
+- https://github.com/sawsimeon/MLSF-PDL1
+- https://github.com/sawsimeon/PDL1_Generic
+- https://github.com/LouisonF/Size-Impact-Study
+
+Programming languages used in this protocol: Python v3.7, Jupyter notebook, Bash.
 
 All other necessary information is included in our protocol.
 
