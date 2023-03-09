@@ -22,7 +22,9 @@ Inside each of the three folders **ACHE**, **HMGR**, **PPARA**, you will find th
 The code is found in the **Protocol_Code** folder:
 
 - *bash-commands.zip*: zip file containing all bash commands for the compilation of scores from Smina, CNN-Score, RF-Score-VS, IFP (Steps 14, 21, 30, 41).
-- *PR-curve_EF1_NEF1.ipynb*: Jupyter notebook for plotting the precision-recall (PR) curve and computing the EF1%, NEF1%. 
+- *Precision-Recall-curve.ipynb*: Jupyter notebook for plotting the precision-recall (PR) curve.
+- *EF1-NEF1.sh*: bash script for computing the EF1% and NEF1% values.
+- *vlookup.awk* and *potency.sh*: necessary files for extracting the potency of the true hits among the top 1%-ranked molecules.
 - *Morgan-fp-simil.ipynb*: Jupyter notebook for computing the similarity of Morgan fingerprints.
 - *Compound-clustering_Morgan-fp.ipynb*: Jupyter notebook for clustering molecules based on their Morgan fingerprint similarity.
 - *Remove_AVE_Python3.py*: Python code for splitting a data set into four subsets (training actives, training inactives, test actives, and test inactives) in an unbiased manner.
