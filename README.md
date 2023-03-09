@@ -11,7 +11,7 @@ Here we provide examples for three targets: **ACHE** (acetylcholinesterase), **H
 Inside each of the three folders **ACHE**, **HMGR**, **PPARA**, you will find the following sub-folders:
 
 - **DEKOIS2.0** sub-folder: input and output files for Section A of this protocol.
-- **Own_data** sub-folder: input and output files for Sections B, C, D of this protocol. There are smaller sub-folders as follows:
+- **Own_data** sub-folder: input and output files for Sections B, C, D of this protocol. This sub-folder contains:
   - **SMILES** sub-folder: SMILES strings of the users' own true actives, true inactives and decoys.
   - **ChemAxon** sub-folder: raw data for Figure 4 in the manuscript and Figures S1-S2 in Supporting Information.
   - **MLSF_PETS** sub-folder: input and output files related to training-test partitions obtained from the "Pre-Existing Test Set" (PETS) option.
