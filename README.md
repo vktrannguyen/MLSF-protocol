@@ -1,6 +1,6 @@
 # MLSF-protocol
 
-![Protocol-Workflow](https://github.com/vktrannguyen/MLSF-protocol/blob/main/Figure1_Nat-Protoc.png)
+![Protocol-Workflow](https://github.com/vktrannguyen/MLSF-protocol/blob/main/Fig1_Nat-Protoc.png)
 
 You will find herein the code (Python scripts, Jupyter notebooks), the input and output files related to our Nature Protocols paper:
 
@@ -13,11 +13,11 @@ Inside each of the three folders **ACHE**, **HMGR**, **PPARA**, you will find th
 - **DEKOIS2.0** sub-folder: all input and output files for Section A of this protocol.
 - **Own_data** sub-folder: all input and output files for Sections B, C, D of this protocol. There are smaller sub-folders as follows:
   - **SMILES** sub-folder: all SMILES strings of the users' own true actives, true inactives and decoys.
-  - **ChemAxon** sub-folder: raw data for Fig. 4 in the manuscript and Figures S1-S2 in Supporting Information.
+  - **ChemAxon** sub-folder: raw data for Figure 4 in the manuscript and Figures S1-S2 in Supporting Information.
   - **MLSF_PETS** sub-folder: all input and output files related to training-test partitions obtained from the "Pre-Existing Test Set" (PETS) option.
   - **MLSF_OTS** sub-folder: all input and output files related to training-test partitions obtained from the "Own Test Set" (OTS) option.
   - *data.xlsx*: the master Excel file where all necessary information on the users' own true actives and true inactives is stored.
-- **D-test-sets** sub-folder: all input and output files related to the "Dissimilar" (D) test sets of each target's PETS and OTS (Tables 2, 3).
+- **D-test-sets** sub-folder: all files related to the "Dissimilar" (D) test sets of each target's PETS and OTS (Tables 2, 3).
 
 The code is found in the **Protocol_Code** folder:
 
@@ -30,9 +30,9 @@ The code is found in the **Protocol_Code** folder:
 
 All Supporting Information files are found in the **Supporting_Information** folder:
 
-- *Supporting-Information_MLSFs-SBVS.docx*: Tables S1-S5, Figures S1-S2 and other supplementary information as indicated in the manuscript.
-- *Supporting-Information_MLSFs-SBVS_DEKOIS-retrieved-actives.xlsx*: raw data for Fig. 3 in the manuscript.
-- *Supporting-Information_MLSFs-SBVS_10-runs.xlsx*: virtual screening performance of five learning algorithms across 10 training-test runs on five training-test partitions, raw data for a part of Fig. 5 in the manuscript.
+- *Supporting-Information_MLSFs-SBVS.docx*: Tables S1-S5, Figures S1, S2 and other supplementary information as indicated in the manuscript.
+- *Supporting-Information_MLSFs-SBVS_DEKOIS-retrieved-actives.xlsx*: raw data for Figure 3 in the manuscript.
+- *Supporting-Information_MLSFs-SBVS_10-runs.xlsx*: virtual screening performance of five learning algorithms across 10 training-test runs on five training-test partitions, raw data for Figures 5A, 5C in the manuscript.
 
 Two environments have to be set up in order to run the code of this protocol: **DeepCoy-env** and **protocol-env**. The **DeepCoy-env** environment can be installed according to DeepCoy authors (https://github.com/fimrie/DeepCoy). The **protocol-env** environment can be set up by using the *protocol-env.yml* file provided here as follows:
 
