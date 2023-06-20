@@ -29,6 +29,7 @@ The code is found in the **Protocol_Code** folder:
 - *Compound-clustering_Morgan-fp.ipynb*: Jupyter notebook for clustering molecules based on their Morgan fingerprint similarity.
 - *Remove_AVE_Python3.py*: Python code for splitting a data set into four subsets (training actives, training inactives, test actives, and test inactives) in an unbiased manner.
 - *MLSFs.ipynb*: Jupyter notebook for training and evaluating target-specific SFs.
+**Warning**: if you use the scripts *EF1-NEF1.sh* and *potency.sh* to process the csv hit lists issued by the *MLSFs.ipynb* Jupyter notebook (in **Section D**), you must remove the "Predicted_Class" column (while keeping the "Real_Class" column as is) from the hit lists beforehand.
 
 All Supporting Information files are found in the **Supporting_Information** folder:
 
