@@ -30,7 +30,16 @@ The code is found in the **Protocol_Code** folder:
 - *Remove_AVE_Python3.py*: Python code for splitting a data set into four subsets (training actives, training inactives, test actives, and test inactives) in an unbiased manner.
 - *MLSFs.ipynb*: Jupyter notebook for training and evaluating target-specific SFs.
 
-**Warning**: if you use the scripts *EF1-NEF1.sh* and *potency.sh* to process the csv hit lists issued by the *MLSFs.ipynb* Jupyter notebook (in **Section D**), you must remove the "Predicted_Class" column (while keeping the "Real_Class" column as is) from the hit lists beforehand.
+**ATTENTION**: if you use the scripts *EF1-NEF1.sh* and *potency.sh* to process the csv hit lists issued by the *MLSFs.ipynb* Jupyter notebook (in **Section D**):
+
+- You must remove the "Predicted_Class" column (while keeping the "Real_Class" column as is) from the hit lists beforehand.
+- The *EF1-NEF1.sh* code must be slightly modified as follows (you can either edit it using the *vi*/*vim* command or open it in a text editor, e.g. Notepad++, and save it after modifying):
+
+```
+#Count the number of true active molecules (true hits) in the whole test set:
+A=$(grep -c 'Active' $hitlistname)-1
+A=$((A))
+```
 
 All Supporting Information files are found in the **Supporting_Information** folder:
 
