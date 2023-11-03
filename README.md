@@ -1,6 +1,6 @@
 # MLSF-protocol
 
-![Protocol-Workflow](https://github.com/vktrannguyen/MLSF-protocol/blob/main/Fig1_Nat-Protoc.png)
+![Protocol-Workflow](https://github.com/vktrannguyen/MLSF-protocol/blob/main/Figure-1_Nat-Protoc.png)
 
 You will find herein the code (bash scripts, Python scripts, Jupyter notebooks), the input and output files related to our Nature Protocols paper:
 
