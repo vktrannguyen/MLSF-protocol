@@ -83,7 +83,7 @@ Several parts of the code/scripts/Jupyter notebooks used in this protocol were d
 - https://github.com/sawsimeon/MLSF-PDL1
 - https://github.com/sawsimeon/PDL1_Generic
 
-Programming languages used in this protocol: Python v3.7, Jupyter notebook, Bash.
+Programming languages used in this protocol: Python v3.7, Bash.
 
 All other necessary information is included in our protocol.
 
