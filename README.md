@@ -6,6 +6,8 @@ You will find herein the code (bash scripts, Python scripts, Jupyter notebooks),
 
 **Tran-Nguyen, V. K., Junaid, M., Simeon, S. & Ballester, P. J. A practical guide to machine-learning scoring for structure-based virtual screening. *Nat. Protoc.* **18**, 3460–3511 (2023)**
 
+https://www.nature.com/articles/s41596-023-00885-w
+
 Here we provide examples for three targets: **ACHE** (acetylcholinesterase), **HMGR** (HMG-CoA reductase), and **PPARA** (peroxisome proliferator-activated receptor alpha). The input and output files for a target are found in the corresponding folder.
 
 Inside each of the three folders **ACHE**, **HMGR**, **PPARA**, you will find the following sub-folders:
@@ -47,7 +49,7 @@ All Supporting Information files are found in the **Supporting_Information** fol
 - *Supporting-Information_MLSFs-SBVS_DEKOIS-retrieved-actives.xlsx*: raw data for Figure 3 in the manuscript.
 - *Supporting-Information_MLSFs-SBVS_10-runs.xlsx*: virtual screening performance of five learning algorithms across 10 training-test runs on five training-test partitions (full partitions and "Dissimilar" test sets), raw data for Figures 5A, 5C in the manuscript.
 
-Two environments have to be set up in order to run the code of this protocol: **DeepCoy-env** and **protocol-env**. The **DeepCoy-env** environment can be installed according to DeepCoy authors (https://github.com/fimrie/DeepCoy). The **protocol-env** environment can be set up by using the *protocol-env.yml* file provided here as follows:
+Two environments have to be set up to run the code of this protocol: **DeepCoy-env** and **protocol-env**. The **DeepCoy-env** environment can be installed according to DeepCoy authors (https://github.com/fimrie/DeepCoy). The **protocol-env** environment can be set up by using the *protocol-env.yml* file provided here as follows:
 
 ```
 conda env create -f protocol-env.yml
@@ -78,7 +80,7 @@ df['smiles']= smiles_list
 
 The Anaconda installer v4.13.0 is needed to set up these environments. Installation instructions for Anaconda can be found at https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html.
 
-Several parts of the code/scripts/Jupyter notebooks used in this protocol were developed from the original code accessible in the following github repositories:
+Several parts of the code/scripts/Jupyter notebooks used in this protocol were developed from the original code accessible in the following GitHub repositories:
 
 - https://github.com/sawsimeon/MLSF-PDL1
 - https://github.com/sawsimeon/PDL1_Generic
@@ -87,4 +89,4 @@ Programming languages used in this protocol: Python v3.7, Bash.
 
 All other necessary information is included in our protocol.
 
-For further queries, please contact **Dr. Viet-Khoa Tran-Nguyen** (khoatnv1993@gmail.com) or **Dr. Pedro J. Ballester** (p.ballester@imperial.ac.uk).
+For further queries, please contact **Dr. Viet-Khoa Tran-Nguyen** (viet-khoa.tran-nguyen@u-paris.fr, khoatnv1993@gmail.com) or **Dr. Pedro J. Ballester** (p.ballester@imperial.ac.uk).
