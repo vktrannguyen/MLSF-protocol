@@ -89,4 +89,7 @@ Programming languages used in this protocol: Python v3.7, Bash.
 
 All other necessary information is included in our protocol.
 
-For further queries, please contact **Dr. Viet-Khoa Tran-Nguyen** (viet-khoa.tran-nguyen@u-paris.fr, khoatnv1993@gmail.com) or **Dr. Pedro J. Ballester** (p.ballester@imperial.ac.uk).
+For further queries, please contact:
+
+- **Dr. Viet-Khoa Tran-Nguyen** (viet-khoa.tran-nguyen@u-paris.fr, khoatnv1993@gmail.com);
+- **Dr. Pedro J. Ballester** (p.ballester@imperial.ac.uk).
